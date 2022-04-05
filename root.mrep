@@ -17,17 +17,17 @@ by Ivo Krugers</Description>
       <Category>IDE extensions</Category>
       <Dependencies>
         <AddinDependency>
-          <AddinId>Core</AddinId>
+          <AddinId>::MonoDevelop.Core</AddinId>
           <Version>17.0</Version>
         </AddinDependency>
         <AddinDependency>
-          <AddinId>Ide</AddinId>
+          <AddinId>::MonoDevelop.Ide</AddinId>
           <Version>17.0</Version>
         </AddinDependency>
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">3714</Property>
+        <Property name="DownloadSize">3734</Property>
       </Properties>
     </Addin>
   </Addin>
