@@ -31,4 +31,39 @@ by Ivo Krugers</Description>
       </Properties>
     </Addin>
   </Addin>
+  <Addin>
+    <Url>VisualStudioMac.GetGitUrl_1.0.mpack</Url>
+    <Addin>
+      <Id>GetGitUrl</Id>
+      <Namespace>VisualStudioMac</Namespace>
+      <Name>Get Git Repo URL of selected lines</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>Ivo Krugers</Author>
+      <Copyright />
+      <Url>https://github.com/IvoKrugers</Url>
+      <Description>This extension copies the URL of the selected lines in the connected Git Repo to the clipboard. GITHUB and Azure DevOps are supported.
+
+by Ivo Krugers</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>8.10.21</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>8.10.21</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.TextEditor</AddinId>
+          <Version>8.10.21</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">285343</Property>
+      </Properties>
+    </Addin>
+  </Addin>
 </Repository>
