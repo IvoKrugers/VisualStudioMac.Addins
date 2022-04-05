@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Addin>
+    <Url>VisualStudioMac.OneClickToOpenFile_1.0.mpack</Url>
+    <Addin>
+      <Id>OneClickToOpenFile</Id>
+      <Namespace>VisualStudioMac</Namespace>
+      <Name>One Click To Open File</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>Ivo Krugers</Author>
+      <Copyright />
+      <Url>https://github.com/IvoKrugers/EssentialsAddin</Url>
+      <Description>This extension opens a file with only one click on the solutiontree.
+
+by Ivo Krugers</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Core</AddinId>
+          <Version>17.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>Ide</AddinId>
+          <Version>17.0</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">3714</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+</Repository>
