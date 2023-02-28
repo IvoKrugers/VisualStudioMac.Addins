@@ -1,16 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Repository xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Addin>
-    <Url>VisualStudioMac.GetGitUrl_17.0.mpack</Url>
+    <Url>VisualStudioMac.SolutionTreeFilter.17.5.mpack</Url>
     <Addin>
-      <Id>GetGitUrl</Id>
+      <Id>SolutionTreeFilter</Id>
       <Namespace>VisualStudioMac</Namespace>
-      <Name>Ivo: Get Git Repo URL of selected lines</Name>
-      <Version>17.0</Version>
+      <Name>VSM: SolutionTree Filter</Name>
+      <Version>17.5</Version>
+      <BaseVersion />
+      <Author>Ivo Krugers</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>https://github.com/IvoKrugers/VisualStudioMac.SolutionTreeFilter</Url>
+      <Description>This extension adds a Pad which allows you to filter the solution tree by multiple search terms.
+
+By Ivo Krugers</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.TextEditor</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">17825</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>VisualStudioMac.SimplePad.17.5.mpack</Url>
+    <Addin>
+      <Id>SimplePad</Id>
+      <Namespace>VisualStudioMac</Namespace>
+      <Name>SimplePad demo</Name>
+      <Version>17.5</Version>
       <BaseVersion />
       <Author>Ivo Krugers</Author>
       <Copyright />
       <Url>https://github.com/IvoKrugers</Url>
+      <Description>Demo how to create a pad.
+
+by Ivo Krugers</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">3849</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>VisualStudioMac.OneClickToOpenFile.17.5.mpack</Url>
+    <Addin>
+      <Id>OneClickToOpenFile</Id>
+      <Namespace>VisualStudioMac</Namespace>
+      <Name>VSM: One Click To Open File</Name>
+      <Version>17.5</Version>
+      <BaseVersion />
+      <Author>Ivo Krugers</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>https://github.com/IvoKrugers/VisualStudioMac.OneClickToOpenFile</Url>
+      <Description>This extension opens a file with only one click on the solutiontree.
+
+by Ivo Krugers
+
+</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">6684</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>VisualStudioMac.GetGitUrl.17.5.mpack</Url>
+    <Addin>
+      <Id>GetGitUrl</Id>
+      <Namespace>VisualStudioMac</Namespace>
+      <Name>VSM: Get Git Repo URL of selected lines</Name>
+      <Version>17.5</Version>
+      <BaseVersion />
+      <Author>Ivo Krugers</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>https://github.com/IvoKrugers/VisualStudioMac.GetGitUrl</Url>
       <Description>This extension copies the URL of the selected lines in the connected Git Repo to the clipboard. GITHUB and Azure DevOps are supported.
 
 by Ivo Krugers</Description>
@@ -18,51 +117,20 @@ by Ivo Krugers</Description>
       <Dependencies>
         <AddinDependency>
           <AddinId>::MonoDevelop.Core</AddinId>
-          <Version>8.10.21</Version>
+          <Version>17.5</Version>
         </AddinDependency>
         <AddinDependency>
           <AddinId>::MonoDevelop.Ide</AddinId>
-          <Version>8.10.21</Version>
+          <Version>17.5</Version>
         </AddinDependency>
         <AddinDependency>
           <AddinId>::MonoDevelop.TextEditor</AddinId>
-          <Version>8.10.21</Version>
+          <Version>17.5</Version>
         </AddinDependency>
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">285365</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
-    <Url>VisualStudioMac.OneClickToOpenFile_17.0.mpack</Url>
-    <Addin>
-      <Id>OneClickToOpenFile</Id>
-      <Namespace>VisualStudioMac</Namespace>
-      <Name>Ivo: One Click To Open File</Name>
-      <Version>17.0</Version>
-      <BaseVersion />
-      <Author>Ivo Krugers</Author>
-      <Copyright />
-      <Url>https://github.com/IvoKrugers/EssentialsAddin</Url>
-      <Description>This extension opens a file with only one click on the solutiontree.
-
-by Ivo Krugers</Description>
-      <Category>IDE extensions</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.Core</AddinId>
-          <Version>17.0</Version>
-        </AddinDependency>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.Ide</AddinId>
-          <Version>17.0</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="DownloadSize">3748</Property>
+        <Property name="DownloadSize">7949</Property>
       </Properties>
     </Addin>
   </Addin>

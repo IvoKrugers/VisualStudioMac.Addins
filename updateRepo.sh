@@ -1,21 +1,47 @@
 #!/bin/sh
+clear
 
+# Get and goto folder of this script's location
 SCRIPTFILE=$0
+ADDINFOLDER=${SCRIPTFILE%/*}
+cd ${ADDINFOLDER}
+ADDINFOLDER=$(pwd)
 
-#Get the absolute path to the containing folder
-PROJECTFOLDER=${SCRIPTFILE%/*}
-
-cd ${PROJECTFOLDER}
-
-pwd
-
+# Clean
 rm *.mpack
-mono /Applications/Visual\ Studio.app/Contents/Resources/lib/monodevelop/bin/vstool.exe setup pack ../VisualStudioMac.OneClickToOpenFile/VisualStudioMac.OneClickToOpenFile/bin/VisualStudioMac.OneClickToOpenFile.dll
-mono /Applications/Visual\ Studio.app/Contents/Resources/lib/monodevelop/bin/vstool.exe setup pack ../VisualStudioMac.GetGitUrl/VisualStudioMac.GetGitUrl/bin/Release/net471/VisualStudioMac.GetGitUrl.dll 
+
+# Pack
+#If you get permision denied on /Applications/Visual\ Studio.app folder
+#Goto the folder and Add full access to anyone via "get info" 
+#sudo chmod u+w /Applications/Visual\ Studio.app
 
 
 
-/Applications/Visual\ Studio.app/Contents/MacOS/vstool setup rep-build .
-rm index.html
+for file in $(find ~/Xamarin_Projects/VS2022.EXTENSIONS -type f -wholename "*bin/Release/*VisualStudio*.dll"); do
+  # Do something with $file
+  #  echo "/Applications/Visual\ Studio\.app/Contents/MacOS/vstool setup pack \"$file\" -output $ADDINFOLDER"
+   /Applications/Visual\ Studio\.app/Contents/MacOS/vstool setup pack "$file"
+done
+
+
+# Copy to local dir
+for filename in /Applications/Visual\ Studio\.app/*VisualStudioMac*.mpack;
+do
+  echo "move $filename"
+  mv "$filename" .
+done
+
+# #mono /Applications/Visual\ Studio.app/Contents/Resources/lib/monodevelop/bin/vstool.exe setup pack ../bin/VisualStudioMac.OneClickToOpenFile.dll
+# #mono /Applications/Visual\ Studio.app/Contents/Resources/lib/monodevelop/bin/vstool.exe setup pack ../bin/VisualStudioMac.GetGitUrl.dll 
+# #mono /Applications/Visual\ Studio.app/Contents/Resources/lib/monodevelop/bin/vstool.exe setup pack ../bin/VisualStudioMac.FormatOnSave.dll 
+# mono /Applications/Visual\ Studio.app/Contents/Resources/lib/monodevelop/bin/vstool.exe setup pack ../VisualStudioMac.SolutionTreeFilter/VisualStudioMac.SolutionTreeFilter/bin/VisualStudioMac.SolutionTreeFilter.dll 
+
+
+
+
+
+# Rebuild Repo
+/Applications/Visual\ Studio.app/Contents/MacOS/vstool setup rep-build $ADDINFOLDER
+# rm index.html
 
 #xml ed -i "/Repository" -t text -n "Name" -v "Visual Studio Mac Addins by Ivo Krugers" main.mrep
