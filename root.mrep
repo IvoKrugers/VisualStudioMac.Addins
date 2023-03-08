@@ -62,40 +62,7 @@ by Ivo Krugers</Description>
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">3849</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
-    <Url>VisualStudioMac.OneClickToOpenFile.17.5.mpack</Url>
-    <Addin>
-      <Id>OneClickToOpenFile</Id>
-      <Namespace>VisualStudioMac</Namespace>
-      <Name>VSM: One Click To Open File</Name>
-      <Version>17.5</Version>
-      <BaseVersion />
-      <Author>Ivo Krugers</Author>
-      <Copyright>MIT X11</Copyright>
-      <Url>https://github.com/IvoKrugers/VisualStudioMac.OneClickToOpenFile</Url>
-      <Description>This extension opens a file with only one click on the solutiontree.
-
-by Ivo Krugers
-
-</Description>
-      <Category>IDE extensions</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.Core</AddinId>
-          <Version>17.5</Version>
-        </AddinDependency>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.Ide</AddinId>
-          <Version>17.5</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="DownloadSize">6684</Property>
+        <Property name="DownloadSize">3846</Property>
       </Properties>
     </Addin>
   </Addin>
@@ -131,6 +98,99 @@ by Ivo Krugers</Description>
       <OptionalDependencies />
       <Properties>
         <Property name="DownloadSize">7949</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>Xablu.UXDD.Mac.17.5.mpack</Url>
+    <Addin>
+      <Id>UXDD.Mac</Id>
+      <Namespace>Xablu</Namespace>
+      <Name>Xablu UXDD integration</Name>
+      <Version>17.5</Version>
+      <BaseVersion />
+      <Author>Xablu B.V.</Author>
+      <Copyright />
+      <Url>https://www.xablu.com</Url>
+      <Description>Xablu UXDD Azure DevOps and Figma integration.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">2168039</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>VisualStudioMac.OneClickToOpenFile.17.5.1.mpack</Url>
+    <Addin>
+      <Id>OneClickToOpenFile</Id>
+      <Namespace>VisualStudioMac</Namespace>
+      <Name>VSM: One Click To Open File</Name>
+      <Version>17.5.1</Version>
+      <BaseVersion />
+      <Author>Ivo Krugers</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>https://github.com/IvoKrugers/VisualStudioMac.OneClickToOpenFile</Url>
+      <Description>This extension opens a file with only one click on the solutiontree.
+
+by Ivo Krugers
+
+</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">6818</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>VisualStudioMac.GenerateMPack.17.5.mpack</Url>
+    <Addin>
+      <Id>GenerateMPack</Id>
+      <Namespace>VisualStudioMac</Namespace>
+      <Name>VSM: Generate .mpack</Name>
+      <Version>17.5</Version>
+      <BaseVersion />
+      <Author>Ivo Krugers</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>https://github.com/IvoKrugers</Url>
+      <Description>This extension adds a item to the tools menu to generate a .mpack file from a release build.
+
+By Ivo Krugers</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>17.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">6353</Property>
       </Properties>
     </Addin>
   </Addin>

@@ -14,20 +14,21 @@ rm *.mpack
 #If you get permision denied on /Applications/Visual\ Studio.app folder
 #Goto the folder and Add full access to anyone via "get info" 
 #sudo chmod u+w /Applications/Visual\ Studio.app
+#sudo chmod -R a+rw /Applications/Visual\ Studio.app
 
 
 
 for file in $(find ~/Xamarin_Projects/VS2022.EXTENSIONS -type f -wholename "*bin/Release/*VisualStudio*.dll"); do
   # Do something with $file
-  #  echo "/Applications/Visual\ Studio\.app/Contents/MacOS/vstool setup pack \"$file\" -output $ADDINFOLDER"
-   /Applications/Visual\ Studio\.app/Contents/MacOS/vstool setup pack "$file"
+  echo "/Applications/Visual\ Studio\.app/Contents/MacOS/vstool setup pack \"$file\" -output $ADDINFOLDER"
+  /Applications/Visual\ Studio\.app/Contents/MacOS/vstool setup pack "$file" -output "$ADDINFOLDER"
 done
 
 
 # Copy to local dir
 for filename in /Applications/Visual\ Studio\.app/*VisualStudioMac*.mpack;
 do
-  echo "move $filename"
+  echo "mv $filename"
   mv "$filename" .
 done
 
