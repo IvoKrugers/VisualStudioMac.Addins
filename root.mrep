@@ -102,35 +102,6 @@ by Ivo Krugers</Description>
     </Addin>
   </Addin>
   <Addin>
-    <Url>Xablu.UXDD.Mac.17.5.mpack</Url>
-    <Addin>
-      <Id>UXDD.Mac</Id>
-      <Namespace>Xablu</Namespace>
-      <Name>Xablu UXDD integration</Name>
-      <Version>17.5</Version>
-      <BaseVersion />
-      <Author>Xablu B.V.</Author>
-      <Copyright />
-      <Url>https://www.xablu.com</Url>
-      <Description>Xablu UXDD Azure DevOps and Figma integration.</Description>
-      <Category>IDE extensions</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.Core</AddinId>
-          <Version>17.5</Version>
-        </AddinDependency>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.Ide</AddinId>
-          <Version>17.5</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="DownloadSize">2168039</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
     <Url>VisualStudioMac.OneClickToOpenFile.17.5.1.mpack</Url>
     <Addin>
       <Id>OneClickToOpenFile</Id>
