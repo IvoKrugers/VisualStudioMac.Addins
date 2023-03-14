@@ -97,7 +97,7 @@ by Ivo Krugers</Description>
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">7949</Property>
+        <Property name="DownloadSize">7993</Property>
       </Properties>
     </Addin>
   </Addin>
@@ -130,7 +130,7 @@ by Ivo Krugers
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">6818</Property>
+        <Property name="DownloadSize">6814</Property>
       </Properties>
     </Addin>
   </Addin>
