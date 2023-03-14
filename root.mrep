@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Addin>
-    <Url>VisualStudioMac.SolutionTreeFilter.17.5.mpack</Url>
+    <Url>VisualStudioMac.GenerateMPack.17.5.1.mpack</Url>
     <Addin>
-      <Id>SolutionTreeFilter</Id>
+      <Id>GenerateMPack</Id>
       <Namespace>VisualStudioMac</Namespace>
-      <Name>VSM: SolutionTree Filter</Name>
-      <Version>17.5</Version>
+      <Name>VSM: Generate .mpack</Name>
+      <Version>17.5.1</Version>
       <BaseVersion />
       <Author>Ivo Krugers</Author>
       <Copyright>MIT X11</Copyright>
-      <Url>https://github.com/IvoKrugers/VisualStudioMac.SolutionTreeFilter</Url>
-      <Description>This extension adds a Pad which allows you to filter the solution tree by multiple search terms.
+      <Url>https://github.com/IvoKrugers</Url>
+      <Description>This extension adds a item to the tools menu to generate a .mpack file from a release build.
 
 By Ivo Krugers</Description>
       <Category>IDE extensions</Category>
       <Dependencies>
         <AddinDependency>
           <AddinId>::MonoDevelop.Core</AddinId>
-          <Version>17.5</Version>
+          <Version>17.5.1</Version>
         </AddinDependency>
         <AddinDependency>
           <AddinId>::MonoDevelop.Ide</AddinId>
-          <Version>17.5</Version>
-        </AddinDependency>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.TextEditor</AddinId>
-          <Version>17.5</Version>
+          <Version>17.5.1</Version>
         </AddinDependency>
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">17825</Property>
+        <Property name="DownloadSize">6382</Property>
       </Properties>
     </Addin>
   </Addin>
@@ -53,26 +49,26 @@ by Ivo Krugers</Description>
       <Dependencies>
         <AddinDependency>
           <AddinId>::MonoDevelop.Core</AddinId>
-          <Version>17.5</Version>
+          <Version>17.5.1</Version>
         </AddinDependency>
         <AddinDependency>
           <AddinId>::MonoDevelop.Ide</AddinId>
-          <Version>17.5</Version>
+          <Version>17.5.1</Version>
         </AddinDependency>
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">3846</Property>
+        <Property name="DownloadSize">3853</Property>
       </Properties>
     </Addin>
   </Addin>
   <Addin>
-    <Url>VisualStudioMac.GetGitUrl.17.5.mpack</Url>
+    <Url>VisualStudioMac.GetGitUrl.17.5.1.mpack</Url>
     <Addin>
       <Id>GetGitUrl</Id>
       <Namespace>VisualStudioMac</Namespace>
       <Name>VSM: Get Git Repo URL of selected lines</Name>
-      <Version>17.5</Version>
+      <Version>17.5.1</Version>
       <BaseVersion />
       <Author>Ivo Krugers</Author>
       <Copyright>MIT X11</Copyright>
@@ -84,20 +80,55 @@ by Ivo Krugers</Description>
       <Dependencies>
         <AddinDependency>
           <AddinId>::MonoDevelop.Core</AddinId>
-          <Version>17.5</Version>
+          <Version>17.5.1</Version>
         </AddinDependency>
         <AddinDependency>
           <AddinId>::MonoDevelop.Ide</AddinId>
-          <Version>17.5</Version>
+          <Version>17.5.1</Version>
         </AddinDependency>
         <AddinDependency>
           <AddinId>::MonoDevelop.TextEditor</AddinId>
-          <Version>17.5</Version>
+          <Version>17.5.1</Version>
         </AddinDependency>
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">7993</Property>
+        <Property name="DownloadSize">7994</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>VisualStudioMac.SolutionTreeFilter.17.5.1.mpack</Url>
+    <Addin>
+      <Id>SolutionTreeFilter</Id>
+      <Namespace>VisualStudioMac</Namespace>
+      <Name>VSM: SolutionTree Filter</Name>
+      <Version>17.5.1</Version>
+      <BaseVersion />
+      <Author>Ivo Krugers</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>https://github.com/IvoKrugers/VisualStudioMac.SolutionTreeFilter</Url>
+      <Description>This extension adds a Pad which allows you to filter the solution tree by multiple search terms.
+
+By Ivo Krugers</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>17.5.1</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>17.5.1</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.TextEditor</AddinId>
+          <Version>17.5.1</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">17823</Property>
       </Properties>
     </Addin>
   </Addin>
@@ -131,37 +162,6 @@ by Ivo Krugers
       <OptionalDependencies />
       <Properties>
         <Property name="DownloadSize">6814</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
-    <Url>VisualStudioMac.GenerateMPack.17.5.mpack</Url>
-    <Addin>
-      <Id>GenerateMPack</Id>
-      <Namespace>VisualStudioMac</Namespace>
-      <Name>VSM: Generate .mpack</Name>
-      <Version>17.5</Version>
-      <BaseVersion />
-      <Author>Ivo Krugers</Author>
-      <Copyright>MIT X11</Copyright>
-      <Url>https://github.com/IvoKrugers</Url>
-      <Description>This extension adds a item to the tools menu to generate a .mpack file from a release build.
-
-By Ivo Krugers</Description>
-      <Category>IDE extensions</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.Core</AddinId>
-          <Version>17.5</Version>
-        </AddinDependency>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.Ide</AddinId>
-          <Version>17.5</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="DownloadSize">6353</Property>
       </Properties>
     </Addin>
   </Addin>
