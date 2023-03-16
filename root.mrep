@@ -32,6 +32,41 @@ By Ivo Krugers</Description>
     </Addin>
   </Addin>
   <Addin>
+    <Url>VisualStudioMac.SolutionTreeFilter.17.5.2.mpack</Url>
+    <Addin>
+      <Id>SolutionTreeFilter</Id>
+      <Namespace>VisualStudioMac</Namespace>
+      <Name>VSM: SolutionTree Filter</Name>
+      <Version>17.5.2</Version>
+      <BaseVersion />
+      <Author>Ivo Krugers</Author>
+      <Copyright>MIT X11</Copyright>
+      <Url>https://github.com/IvoKrugers/VisualStudioMac.SolutionTreeFilter</Url>
+      <Description>This extension adds a Pad which allows you to filter the solution tree by multiple search terms.
+
+By Ivo Krugers</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>17.5.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>17.5.2</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.TextEditor</AddinId>
+          <Version>17.5.2</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">17847</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
     <Url>VisualStudioMac.SimplePad.17.5.mpack</Url>
     <Addin>
       <Id>SimplePad</Id>
@@ -94,41 +129,6 @@ by Ivo Krugers</Description>
       <OptionalDependencies />
       <Properties>
         <Property name="DownloadSize">7994</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
-    <Url>VisualStudioMac.SolutionTreeFilter.17.5.1.mpack</Url>
-    <Addin>
-      <Id>SolutionTreeFilter</Id>
-      <Namespace>VisualStudioMac</Namespace>
-      <Name>VSM: SolutionTree Filter</Name>
-      <Version>17.5.1</Version>
-      <BaseVersion />
-      <Author>Ivo Krugers</Author>
-      <Copyright>MIT X11</Copyright>
-      <Url>https://github.com/IvoKrugers/VisualStudioMac.SolutionTreeFilter</Url>
-      <Description>This extension adds a Pad which allows you to filter the solution tree by multiple search terms.
-
-By Ivo Krugers</Description>
-      <Category>IDE extensions</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.Core</AddinId>
-          <Version>17.5.1</Version>
-        </AddinDependency>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.Ide</AddinId>
-          <Version>17.5.1</Version>
-        </AddinDependency>
-        <AddinDependency>
-          <AddinId>::MonoDevelop.TextEditor</AddinId>
-          <Version>17.5.1</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="DownloadSize">17823</Property>
       </Properties>
     </Addin>
   </Addin>
